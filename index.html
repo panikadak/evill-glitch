@@ -1,0 +1,37 @@
+<head>
+<title>Evil Glitch</title>
+<style>
+body {
+  background: #000;
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+}
+#d {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+canvas {
+  cursor: none;
+  display: none;
+}
+#c {
+  width: 100vw !important;
+  height: 100vh !important;
+  display: block;
+  object-fit: fill;
+}
+</style>
+</head>
+<body allowfullscreen>
+<div id="d">
+<canvas id="c"></canvas>
+<canvas id="g" moz-opaque></canvas>
+</div>
+<script async src="b.js"></script>
+</body>
